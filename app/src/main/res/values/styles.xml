@@ -8,4 +8,27 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- https://material.io/guidelines/style/color.html  -->
+    <!-- https://developer.android.com/training/material/theme.html?hl=zh-cn -->
+    <style name="Day" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="home">@drawable/home_day</item>
+        <item name="contact">@drawable/contact_day</item>
+        <item name="cart">@drawable/cart_day</item>
+        <item name="mine">@drawable/mine_day</item>
+
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#EEEEEE</item>
+    </style>
+
+    <style name="Night" parent="ThemeOverlay.AppCompat.Dark" >
+        <item name="home">@drawable/home_night</item>
+        <item name="contact">@drawable/contact_night</item>
+        <item name="cart">@drawable/cart_night</item>
+        <item name="mine">@drawable/mine_night</item>
+
+
+        <item name="colorPrimary">#313131</item>
+        <item name="colorPrimaryDark">#212121</item>
+    </style>
+
 </resources>

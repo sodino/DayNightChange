@@ -4,7 +4,7 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="60dp"
-    android:background="@android:color/background_dark"
+    android:background="@android:color/transparent"
     android:gravity="center_vertical">
     <TextView
         android:layout_width="wrap_content"
@@ -12,7 +12,7 @@
         android:text="Home"
         android:gravity="center"
         android:layout_weight="1"
-        android:drawableTop="@drawable/home"
+        android:drawableTop="?home"
         android:background="@drawable/ripple_with_no_child_layers_or_mask"/>
     <TextView
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
         android:text="Contact"
         android:gravity="center"
         android:layout_weight="1"
-        android:drawableTop="@drawable/contact"
+        android:drawableTop="?contact"
         android:background="@drawable/ripple_with_no_child_layers_or_mask"/>
     <TextView
         android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
         android:text="Cart"
         android:gravity="center"
         android:layout_weight="1"
-        android:drawableTop="@drawable/cart"
+        android:drawableTop="?cart"
         android:background="@drawable/ripple_with_no_child_layers_or_mask"/>
     <TextView
         android:layout_width="wrap_content"
@@ -36,6 +36,6 @@
         android:text="Mine"
         android:gravity="center"
         android:layout_weight="1"
-        android:drawableTop="@drawable/mine"
+        android:drawableTop="?mine"
         android:background="@drawable/ripple_with_no_child_layers_or_mask"/>
 </LinearLayout>

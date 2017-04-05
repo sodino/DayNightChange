@@ -1,20 +1,14 @@
 package com.sodino.change;
 
-import android.graphics.drawable.RippleDrawable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.sodino.ripple.RippleAdapter;
-
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 // //
 // //
 // //
@@ -25,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.Day); // 手动更改主题
         setContentView(R.layout.activity_main);
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         LinearLayoutManager llMgr = new LinearLayoutManager(this);
