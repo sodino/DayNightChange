@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="status_bar_background" type="id"/>
+
+    <attr name="home" format="reference" />
+    <attr name="contact" format="reference" />
+    <attr name="cart" format="reference" />
+    <attr name="mine" format="reference" />
+
+</resources>
