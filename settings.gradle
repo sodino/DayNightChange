@@ -1,1 +1,1 @@
-include ':themeTest', ':dayNight'
+include ':themeTest', ':themeDayNight'

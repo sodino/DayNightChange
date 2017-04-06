@@ -20,6 +20,8 @@ public class MainActivity extends TitlebarActivity implements View.OnClickListen
     private FragmentManager fgManager;
     private BaseFragment currentFragment;//当前的fragment
     private BaseFragment fragHome, fragContact, fragCart, fragMine;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +37,12 @@ public class MainActivity extends TitlebarActivity implements View.OnClickListen
             v.setOnClickListener(this);
         }
 
-        onClick(findViewById(R.id.home));
+        boolean changeTheme = getIntent().getBooleanExtra("changeTheme", false);
+        if (changeTheme){
+            onClick(findViewById(R.id.mine));
+        }else {
+            onClick(findViewById(R.id.home));
+        }
     }
 
     @Override

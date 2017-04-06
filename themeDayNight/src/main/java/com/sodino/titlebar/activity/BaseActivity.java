@@ -1,11 +1,14 @@
 package com.sodino.titlebar.activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
@@ -139,4 +142,20 @@ public class BaseActivity extends FragmentActivity {
         return tsbar;
     }
 
+    public static int getThemeID(){
+        return themeID;
+    }
+
+    public void changeTheme(int themeID) {
+        BaseActivity.themeID = themeID;
+        View decorView = getWindow().getDecorView();
+        Log.d("Test", "decorView : " + decorView.toString());
+
+        this.finish();
+        // 定义两个动画效果，确保Activity切换效果不明显即可
+        this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+        Intent intent = new Intent(this, this.getClass());
+        intent.putExtra("changeTheme", true);
+        startActivity(intent);
+    }
 }

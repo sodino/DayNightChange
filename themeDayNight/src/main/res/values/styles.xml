@@ -13,6 +13,8 @@
         <item name="contact">@drawable/contact_day</item>
         <item name="cart">@drawable/cart_day</item>
         <item name="mine">@drawable/mine_day</item>
+
+        <item name="titlebar_bg">@color/titlebar_bg_day</item>
     </style>
 
     <style name="Night" parent="Theme.AppCompat.NoActionBar" >
@@ -20,6 +22,8 @@
         <item name="contact">@drawable/contact_night</item>
         <item name="cart">@drawable/cart_night</item>
         <item name="mine">@drawable/mine_night</item>
+
+        <item name="titlebar_bg">@color/titlebar_bg_night</item>
     </style>
 
 
