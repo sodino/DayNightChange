@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         setTheme(R.style.Day); // 手动更改主题
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         LinearLayoutManager llMgr = new LinearLayoutManager(this);
