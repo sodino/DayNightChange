@@ -7,5 +7,7 @@
     <attr name="cart" format="reference" />
     <attr name="mine" format="reference" />
 
+    <attr name="ripple_bg" format="reference"/>
+
     <attr name="titlebar_bg" format="color"/>
 </resources>

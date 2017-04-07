@@ -48,7 +48,7 @@ public class BaseActivity extends FragmentActivity {
             Window window = getWindow();
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 int visibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && themeID == R.style.Day) {
                     // 亮色模式,避免系统状态栏的图标不可见
                     visibility |= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
                 }

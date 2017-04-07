@@ -14,7 +14,7 @@
         android:gravity="center"
         android:layout_weight="1"
         android:drawableTop="?home"
-        android:background="@drawable/ripple_with_no_child_layers_or_mask"/>
+        android:background="?ripple_bg"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:gravity="center"
         android:layout_weight="1"
         android:drawableTop="?contact"
-        android:background="@drawable/ripple_with_no_child_layers_or_mask"/>
+        android:background="?ripple_bg"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         android:gravity="center"
         android:layout_weight="1"
         android:drawableTop="?cart"
-        android:background="@drawable/ripple_with_no_child_layers_or_mask"/>
+        android:background="?ripple_bg"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,5 +41,5 @@
         android:gravity="center"
         android:layout_weight="1"
         android:drawableTop="?mine"
-        android:background="@drawable/ripple_with_no_child_layers_or_mask"/>
+        android:background="?ripple_bg"/>
 </LinearLayout>

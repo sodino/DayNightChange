@@ -6,5 +6,8 @@
 
     <color name="titlebar_bg_day">#fafafa</color>
     <color name="titlebar_bg_night">#313131</color>
+    <color name="ripple_bg_day">#ffFAFAFA</color>
+    <color name="ripple_bg_night">#ffE0E0E0</color>
+
     <color name="bg_status_bar">#ecedf1</color>
 </resources>
