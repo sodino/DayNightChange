@@ -4,8 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="titlebar_bg_day">#fafafa</color>
-    <color name="titlebar_bg_night">#313131</color>
+    <color name="titlebar_bg">#fafafa</color>
 
     <color name="bg_status_bar">#ecedf1</color>
 </resources>
